@@ -69,14 +69,14 @@ a {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background-image: url(images/home-bg2.png);
+    /* background-image: url(images/home-bg2.png); */
     text-align: center;
 }
 #home img {
     padding-top: 75px;
 }
 #details {
-    background-image: url(images/portfolio-bg.png);
+    /* background-image: url(images/portfolio-bg.png); */
     height: 100%;
     width: 100%;
     text-align: center;
