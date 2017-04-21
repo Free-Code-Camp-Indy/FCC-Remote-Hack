@@ -78,18 +78,16 @@ a {
     /* background-image: url(images/home-bg2.png); */
     text-align: center;
 }
-#home img {
-    padding-top: 75px;
-}
+
 #details {
     /* background-image: url(images/portfolio-bg.png); */
     height: 100%;
     width: 100%;
     text-align: center;
 }
+
 #rules {
     background-color: grey;
-    /*height: 100%;*/
     width: 100%;
     color: #fff;
     text-align: left;
@@ -100,10 +98,11 @@ a {
 }
 
 #contact {
-    height: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: auto;
+    background: #B7E1CD;
 }
 
 @media screen and (max-width: 800px) {
@@ -113,9 +112,4 @@ a {
     #contact {
         margin: 0;
     }
-}
-
-#contact {
-    height: auto;
-    background: #B7E1CD;
 }
