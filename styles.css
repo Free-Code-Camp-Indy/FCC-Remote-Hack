@@ -86,15 +86,18 @@ a {
     /*height: 100%;*/
     width: 100%;
     color: #fff;
-    padding: 40px;
     text-align: left;
 }
+
+#rules > .content {
+    padding: 40px;
+}
+
 #contact {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 20px;
 }
 
 @media screen and (max-width: 800px) {
