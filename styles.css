@@ -63,6 +63,12 @@ a {
     height: 50px;
 }
 
+#home,
+#details,
+#rules {
+    padding-top: 75px; /* Same as the height of the nav */
+}
+
 /*sections of the page*/
 #home {
     background-color: #ddd;
@@ -110,5 +116,6 @@ a {
 }
 
 #contact {
+    height: auto;
     background: #B7E1CD;
 }
