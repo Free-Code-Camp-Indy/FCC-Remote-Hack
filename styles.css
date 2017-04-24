@@ -98,6 +98,7 @@ a {
     width: 100%;
     height: auto;
     background: #B7E1CD;
+    padding: 20px;
 }
 
 @media screen and (max-width: 800px) {
@@ -107,4 +108,9 @@ a {
     #contact {
         margin: 0;
     }
+}
+
+.page-footer {
+    text-align: center;
+    padding: 20px 0;
 }
