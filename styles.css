@@ -44,14 +44,15 @@ body, html {
     display: inline;
 }
 .active {
-    font-size: 14px;
-    color: #fff;
+    font-size: 17px;
+    font-weight: 900;
+    text-decoration: underline !important;
     text-decoration: none;
     line-height: 50px;
 }
 a {
-    font-size: 16px;
-    color: black;
+    font-size: 17px;
+    color: #fff;
     text-decoration: none;
     line-height: 50px;
 }
@@ -63,30 +64,24 @@ a {
     height: 50px;
 }
 
-#home,
-#details,
-#rules {
-    padding-top: 75px; /* Same as the height of the nav */
-}
-
 /*sections of the page*/
 #home {
     background-color: #ddd;
-    height: 100%;
     width: 100%;
     overflow: hidden;
     /* background-image: url(images/home-bg2.png); */
     text-align: center;
+    background: #b7e1cd;
 }
 
 #details {
-    /* background-image: url(images/portfolio-bg.png); */
-    height: 100%;
     width: 100%;
     text-align: center;
+    padding: 75px 0;
 }
 
 #rules {
+    padding-top: 75px;
     background-color: grey;
     width: 100%;
     color: #fff;
