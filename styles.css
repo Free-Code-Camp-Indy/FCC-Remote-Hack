@@ -81,7 +81,7 @@ a {
 }
 
 #rules {
-    padding-top: 75px;
+    padding: 75px 0;
     background-color: grey;
     width: 100%;
     color: #fff;
@@ -90,6 +90,24 @@ a {
 
 #rules > .content {
     padding: 40px;
+}
+
+#rules h1, #details h1 {
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 5px;
+}
+#rules h1 {
+    padding-bottom: 30px;
+}
+
+#rules h3 {
+    font-size: 2rem;
+}
+
+#rules li {
+    font-size: 1.2rem;
 }
 
 #contact {
