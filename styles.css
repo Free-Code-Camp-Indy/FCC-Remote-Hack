@@ -113,7 +113,7 @@ a {
 #contact {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: auto;
     height: auto;
     background: #B7E1CD;
     padding: 20px;
